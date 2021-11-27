@@ -1,0 +1,30 @@
+.user__link-aside{
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(255, 255, 255 ,.5);
+
+        mix-blend-mode: normal;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        display: inline-block;
+        margin-left: 15px;
+}
+
+.user__link-aside-dark {
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    margin-left: 15px;
+}
+    
+    .user__link{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}

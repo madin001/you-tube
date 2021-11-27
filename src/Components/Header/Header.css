@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.menu__btn {
+    border: none;
+    outline: none;
+    background: none;
+    margin-right: 30px;
+}
+.label{
+    display: flex;
+    align-items: center;
+      background: rgba(235, 235, 235,.1);
+      mix-blend-mode: normal;
+      border-radius: 22px;
+      margin-left: 50px;
+      margin-right: 50px;
+      padding: 15px 20px;
+      width: 830px;
+}
+
+.label-light {
+        display: flex;
+        align-items: center;
+    background: rgba(235, 235, 235,.3);
+    mix-blend-mode: normal;
+    border-radius: 22px;
+     margin-left: 50px;
+     margin-right: 50px;
+     padding: 15px 20px;
+     width: 830px;
+}
+
+
+.input__seach {
+    width: 830px;
+    border: none;
+    outline: none;
+    background: none;
+    display: flex;
+    align-items: center;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, .6);
+
+  mix-blend-mode: normal;
+ 
+}
+
+
+.input::placeholder{
+    font-size: 16px;
+    line-height: 20px;
+  
+    color: rgba(255, 255, 255, .5);
+
+    mix-blend-mode: normal;
+
+}
+
+.header__btn {
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 50px;
+}
+
+.profile{
+    margin-left: 60px;
+}

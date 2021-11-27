@@ -1,0 +1,53 @@
+/* mulish-regular - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../src/Assides/Fonts/mulish-v7-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../src/Assides/Fonts/mulish-v7-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* mulish-700 - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+        url('../src/Assides/Fonts/mulish-v7-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../src/Assides/Fonts/mulish-v7-latin-700.woff') format('woff');
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ 
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #17171E;
+  font-family: 'Mulish';
+}
+
+ul{
+  list-style: none;
+}
+
+.white__body{
+  background-color: #fff;
+   padding-bottom: 150px;
+}
+
+.container{
+ display: flex;
+ max-width: 1820px;
+ padding:0 15px;
+ margin: 0 auto;
+}

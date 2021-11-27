@@ -1,0 +1,224 @@
+aside {
+    padding-right: 50px;
+    margin-right: 30px;
+
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+
+.nav__link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.nav__link-dark {
+    font-size: 16px;
+    line-height: 20px;
+    color: #898989;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.active {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+.nav__link::before {
+    content: '';
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 13px;
+    background-color: #000;
+
+}
+
+.nav__link:first-child:before {
+    width: 20px;
+    height: 19px;
+    background-image: url(../../Assides/Images/Home.svg);
+}
+
+.nav__link:nth-child(2)::before {
+    width: 16px;
+    height: 21px;
+    background-image: url(../../Assides/Images/Trending.svg);
+}
+
+.nav__link:nth-child(3)::before {
+    width: 18px;
+    height: 18px;
+    background-image: url(../../Assides/Images/Subscription.svg);
+}
+
+.nav__link:nth-child(4)::before {
+    width: 20px;
+    height: 16px;
+    background-image: url(../../Assides/Images/Library.svg);
+}
+
+.nav__link:nth-child(5)::before {
+    width: 20px;
+    height: 18px;
+    background-image: url(../../Assides/Images/History.svg);
+}
+
+.nav__link:nth-child(6)::before {
+    width: 17px;
+    height: 19px;
+    background-image: url(../../Assides/Images/Watch.svg);
+}
+
+.nav__link:nth-child(7)::before {
+    width: 19px;
+    height: 18px;
+    background-image: url(../../Assides/Images/Favourite.svg);
+}
+
+.nav__link:nth-child(8)::before {
+    width: 18px;
+    height: 19px;
+    background-image: url(../../Assides/Images/Liked.svg);
+}
+
+.nav__link:nth-child(9)::before {
+    width: 18px;
+    height: 20px;
+    background-image: url(../../Assides/Images/Music.svg);
+}
+
+.nav__link:nth-child(10)::before {
+    width: 22px;
+    height: 16px;
+    background-image: url(../../Assides/Images/Game.svg);
+}
+
+.nav__link:nth-child(11)::before {
+    width: 13px;
+    height: 8px;
+    background-image: url(../../Assides/Images/Showmore.svg);
+}
+
+
+.nav__link:last-child::before {
+    width: 19px;
+    height: 20px;
+    background-image: url(../../Assides/Images/Settings.svg);
+}
+.nav__link-dark::before {
+    content: '';
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 13px;
+
+}
+
+.nav__link-dark:first-child:before {
+    width: 20px;
+    height: 19px;
+    background-image: url(../../Assides/Images/homeDark.svg);
+}
+
+.nav__link-dark:nth-child(2)::before {
+    width: 16px;
+    height: 21px;
+    background-image: url(../../Assides/Images/trendingDark.svg);
+}
+
+.nav__link-dark:nth-child(3)::before {
+    width: 18px;
+    height: 18px;
+    background-image: url(../../Assides/Images/subscriptionDark.svg);
+}
+
+.nav__link-dark:nth-child(4)::before {
+    width: 20px;
+    height: 16px;
+    background-image: url(../../Assides/Images/libraryDark.svg);
+}
+
+.nav__link-dark:nth-child(5)::before {
+    width: 20px;
+    height: 18px;
+    background-image: url(../../Assides/Images/historyDark.svg);
+}
+
+.nav__link-dark:nth-child(6)::before {
+    width: 17px;
+    height: 19px;
+    background-image: url(../../Assides/Images/watvhDark.svg);
+}
+
+.nav__link-dark:nth-child(7)::before {
+    width: 19px;
+    height: 18px;
+    background-image: url(../../Assides/Images/fav.svg);
+}
+
+.nav__link-dark:nth-child(8)::before {
+    width: 18px;
+    height: 19px;
+    background-image: url(../../Assides/Images/likedDark.svg);
+}
+
+.nav__link-dark:nth-child(9)::before {
+    width: 18px;
+    height: 20px;
+    background-image: url(../../Assides/Images/musicDark.svg);
+}
+
+.nav__link-dark:nth-child(10)::before {
+    width: 22px;
+    height: 16px;
+    background-image: url(../../Assides/Images/gamesDark.svg);
+}
+
+.nav__link-dark:nth-child(11)::before {
+    width: 13px;
+    height: 8px;
+    background-image: url(../../Assides/Images/showmoreDark.svg);
+}
+.nav__link-dark:last-child::before {
+    width: 19px;
+    height: 20px;
+    background-image: url(../../Assides/Images/settingsDark.svg);
+}
+
+.Subscriptions {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+
+    margin-top: 58px;
+    color: #FFFFFF;
+}
+
+.Subscriptions-dark {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+
+    margin-top: 58px;
+    color: #000;
+}

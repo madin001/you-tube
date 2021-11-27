@@ -1,0 +1,263 @@
+.video__list{
+    margin-left: 60px;
+    max-height: 100vh;
+    overflow-y: scroll;
+    width: 100%;
+
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.video__mainly-item{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+iframe{
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.video__title-main{
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+
+.video__title-main-dark {
+    font-size: 36px;
+    line-height: 45px;
+
+   color: #192646;
+}
+
+
+.favourite__btn{
+    background: rgba(255, 255, 255,.1);
+    mix-blend-mode: normal;
+
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    border: none;
+    margin-left: 10px;
+}
+
+.favourite__btn-dark {
+    background: #EBEBEB;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #192646;
+    border: none;
+    margin-left: 10px;
+}
+
+
+
+.dots__btn{
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 40px;
+}
+
+.video__bottom{
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+
+.video__item{
+    margin-top: 25px;
+    display: block;
+}
+
+.video__item-none {
+    display: none;
+}
+
+
+.video__title{
+    font-size: 26px;
+    line-height: 33px;
+  
+    color: #FFFFFF;
+    margin-top: 13px;
+    margin-bottom: 11px;
+}
+
+.video__title-dark {
+    font-size: 26px;
+    line-height: 33px;
+
+color: #19202C;
+    margin-top: 13px;
+    margin-bottom: 11px;
+}
+
+.still-view{
+    font-size: 18px;
+    line-height: 23px;
+  
+    text-align: right;
+
+    color: #C2C2C2;
+    text-decoration: none;
+}
+
+
+.mgn-lft{
+margin-left: 177px;
+}
+.video__box-text{
+    font-size: 16px;
+    line-height: 22px;
+    color: (255, 255, 255,.6);
+
+    mix-blend-mode: normal;
+
+}
+
+.video__box-text {
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0,.6);
+
+
+}
+
+.switch {
+    width: 44px;
+    height: 28px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    margin-left: 11px;
+    display: inline-block;
+  
+}
+
+.switch__dark {
+    width: 44px;
+    height: 28px;
+    position: relative;
+    background-color: red;
+    background: rgba(235, 235, 235, .5);
+    display: inline-block;
+    border-radius: 14px;
+    margin-left: 11px;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    position: absolute;
+    top: 2px;
+}
+
+  .checkbox::before {
+      position: absolute;
+      content: "";
+      left: 2px;
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      transition: 0.4s;
+  }
+
+   .checkbox:checked::before {
+       left: 18px;
+       transition: 0.4s;
+       background: #FFFFFF;
+       box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.237602);
+   }
+
+
+   .switch__dark {
+       width: 44px;
+       height: 28px;
+       position: relative;
+       background-color: rgba(235, 235, 235, 0.5);
+       border-radius: 14px;
+       margin-left: 11px;
+   }
+
+   .checkbox__dark {
+       width: 24px;
+       height: 24px;
+       border-radius: 50%;
+       -webkit-appearance: none;
+       position: absolute;
+       top: 2px;
+
+  
+   }
+
+        .checkbox__dark::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            background-color: #fff;
+            border-radius: 50%;
+            transition: 0.4s;
+        }
+
+        .checkbox__dark:checked::before {
+            left: 18px;
+            transition: 0.4s;
+            background: #2196F3;
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.237602);
+        }
+
+
+        .auto-play{
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+         
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+              margin-left: auto;
+              margin-right: 10px;
+        }
+
+           .auto-play-dark {
+               font-weight: bold;
+               font-size: 16px;
+               line-height: 20px;
+
+               letter-spacing: 1px;
+               text-transform: uppercase;
+
+               color: #000;
+                 margin-left: auto;
+                 margin-right: 10px;
+           }
+
+           .auto-play__box{
+               display: flex;
+               align-items: center;
+           }
+
+
+
